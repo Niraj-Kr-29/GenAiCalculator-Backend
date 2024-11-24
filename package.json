@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "GeminiApi.js",
   "scripts": {
-    "start": "node GeminiApi.js"
+    "start": "node Backend/GeminiApi.js"
   },
   "author": "",
   "license": "ISC",
