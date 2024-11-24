@@ -14,7 +14,7 @@ dotenv.config();
 
 const app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
-app.use(cors({origin: 'http://localhost:5173'}))
+app.use(cors({origin: 'https://gen-ai-calculator.vercel.app'}))
 
 
 const __filename = fileURLToPath(import.meta.url);
